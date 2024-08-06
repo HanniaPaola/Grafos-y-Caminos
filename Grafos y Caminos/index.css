@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    background-image: url(https://img.freepik.com/vector-gratis/edificio-transporte-autobus-escolar-taxi_24877-60034.jpg?t=st=1718688366~exp=1718691966~hmac=82e73012017f5748cffeda0a3c8412d7d4f4c63a0019bb1a57dfcc3e9719fcb3&w=740);
+}
+
+     /* Ajusta el estilo de SweetAlert */
+    .swal2-popup {
+        font-size: 1.2rem; 
+    }
+
+    .swal2-styled.swal2-confirm {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem; 
+        line-height: 1.5; 
+    }
+
+#app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    background: transparent ;
+}
+
+p{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #732C12;   
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px;  
+    box-sizing: border-box;
+    font: oblique bold 120% cursive;
+}
+
+button {
+    font: oblique bold 120% cursive;
+    margin: 7px 0;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #8C0303;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer   
+}
+
+button:hover {
+    background-color: #590202;
+}
+
+#output {
+    margin-top: 20px;
+    font: oblique bold 120% cursive;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+

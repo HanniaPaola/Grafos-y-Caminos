@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificación de Rutas de Transporte Público</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+
+</head>
+<body>
+    <div id="app">
+        <p> Planificación de Rutas de Transporte Público</p>
+        <h1></h1>
+        <h1></h1>
+        <div id="controls"> 
+            <div id="input-container">
+                <input type="text" id="vertex" placeholder="Denomine la Ruta">
+                <button id="addVertex">Añadir Ruta</button>
+                <input type="text" id="startVertex" placeholder="Ruta de inicio">
+                <input type="text" id="endVertex" placeholder="Ruta final">
+                <input type="number" id="weight" value="1" placeholder="Peso">
+                <button id="addEdge">Añadir Conexiones</button>
+            </div>
+            <div id="button-container">          
+                <button id="bfs">Recorrido BFS</button>
+                <button id="dfs">Recorrido DFS</button>
+                <button id="dijkstra">Ruta Más Optima</button>
+            </div>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script type="module" src="./src/controllers/script.mjs"></script>
+</body>
+</html>
+
